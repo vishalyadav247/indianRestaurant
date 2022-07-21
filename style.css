@@ -13,7 +13,7 @@
 
  /* main body */
  body{
-    background-color:rgba(58, 58, 77,0.4) ;
+    background-color:rgba(58, 58, 77,0.2) ;
  }
  
  /* header section- navigation bar */
@@ -249,7 +249,6 @@ form input{
     background-color: transparent;
 }
 .footerContainer{
-    margin: 10px 15px 0px 15px;
     height: auto;
     background-color: var(--themeColor);
     display: flex;
@@ -284,9 +283,9 @@ footer a{
 }
 .footerEnd{
     background-color: var(--themeColor);
-    color: whitesmoke;
-    text-align: center;
-    padding: 10px;
+    color: gray;
+    padding: 10px 20px;
+    border-top: 1px solid grey;
 }
 @media screen and (max-width:600px) {
     #navbar ul li {
@@ -321,9 +320,9 @@ footer a{
         width: 100%;
     }
     .footerItems{
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid silver;
     }
-    .footerContainer{
-        margin: 0px;
+    .footerEnd{
+        border-top: none;
     }
 }
